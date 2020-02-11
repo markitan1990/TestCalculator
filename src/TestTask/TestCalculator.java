@@ -11,7 +11,7 @@ public class TestCalculator extends Calculator implements Sum, Calculation, Subt
 
     public void run() {
         setCondition(inputText()) ;
-        System.out.println(calculation(stringToArray(getCondition())));
+        System.out.printf("Результат = %s", calculation(stringToArray(getCondition())));
     }
 
     @Override
